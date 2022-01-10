@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/brownbg"
+    tools:context=".SpalshScreen">
+
+
+    <!-- SHAPE -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/shape"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_24sdp"
+            android:background="@drawable/shape2"
+            android:elevation="4dp" />
+
+        <View
+            android:id="@+id/shape2"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:background="@drawable/shape2"
+            android:elevation="4dp" />
+        <View
+            android:id="@+id/shape3"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/shape2"
+            android:elevation="4dp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/bg2"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ujian Akhir Semester 5"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nim"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+</LinearLayout>

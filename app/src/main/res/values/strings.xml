@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="for_pass">Forgot Password?</string>
+    <string name="registrasi">Don\'t Have an Account?</string>
+    <string name="show_pass">Show Password</string>
+    <string name="logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="menu_log">Get Data API</string>
+    <string name="menu_tentang_kami">About Me</string>
+    <string name="nama_user">Helina Putri</string>
+    <string name="nim">19090133</string>
+
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deskripsi">Aplikasi ini berisi hasil dari\npengambilan data dengan\nmenggunakan Rest API</string>
+    <string name="pembuka">Welcome To My Aplication</string>
+    <string name="about_me">About Me</string>
+    <string name="nama">Helina Putri</string>
+    <string name="kelas">5D</string>
+    <string name="email">helinaputri9@gmail.com</string>
+    <string name="row_nama">Nama</string>
+    <string name="row_kelas">Kelas</string>
+    <string name="row_email">Email</string>
+    <string name="row_nim">NIM</string>
+    <string name="my_biodata">My Biodata</string>
+</resources>
